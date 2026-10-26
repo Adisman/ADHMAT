@@ -1,0 +1,30 @@
+# TEMPLATE: scheduled REDCap -> dashboard feed (GitHub Actions).
+# To use it, copy this file to .github/workflows/adhmat-feed.yml in a PRIVATE repository or in an
+# Africa CDC organisation repository, and add two repository secrets: REDCAP_URL and REDCAP_TOKEN.
+# Do not publish real country results in a public repository (GitHub Pages is public).
+# The schedule below is an example: every 6 hours. Agree the real timetable with the ADHMAT team.
+name: ADHMAT feed
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  build-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Build feed from REDCap
+        env:
+          REDCAP_URL: ${{ secrets.REDCAP_URL }}
+          REDCAP_TOKEN: ${{ secrets.REDCAP_TOKEN }}
+        run: node pipeline/redcap_to_feed.mjs --out feed/adhmat-feed.json
+      - name: Publish feed (only when it changed)
+        run: |
+          git config user.name  "adhmat-feed-bot"
+          git config user.email "adhmat-feed-bot@users.noreply.github.com"
+          git add feed/adhmat-feed.json
+          git diff --cached --quiet || (git commit -m "Update ADHMAT feed" && git push)

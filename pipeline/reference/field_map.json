@@ -1,0 +1,341 @@
+{
+"dropdown": {
+"sodh_q3_status": {
+"1": "Pilot or programme-level",
+"2": "Scaling up",
+"3": "Routine national implementation",
+"4": "Paused or discontinued"
+},
+"sodh_q7_stage": {
+"1": "Pilot",
+"2": "Scaling up",
+"3": "Routine in part of the country",
+"4": "Routine nationwide"
+},
+"sodh_q9_b1_worked": {
+"1": "Yes",
+"2": "Partly",
+"3": "No",
+"4": "Too early to say"
+},
+"sodh_q11_b1_area": {
+"1": "Digital environment (governance, policy, financing, workforce)",
+"2": "Architecture and data",
+"3": "Applications",
+"4": "Analytics",
+"5": "AI and emerging technology",
+"6": "Other or cross-cutting"
+},
+"sodh_q11_b2_area": {
+"1": "Digital environment (governance, policy, financing, workforce)",
+"2": "Architecture and data",
+"3": "Applications",
+"4": "Analytics",
+"5": "AI and emerging technology",
+"6": "Other or cross-cutting"
+},
+"sodh_q11_b3_area": {
+"1": "Digital environment (governance, policy, financing, workforce)",
+"2": "Architecture and data",
+"3": "Applications",
+"4": "Analytics",
+"5": "AI and emerging technology",
+"6": "Other or cross-cutting"
+},
+"sodh_contact_ok": {
+"1": "Yes",
+"2": "Yes, through the focal point only",
+"3": "No"
+}
+},
+"checkbox": {
+"sodh_q7_type": [
+[
+"chw",
+"Community health"
+],
+[
+"mch",
+"Maternal and child health"
+],
+[
+"imm",
+"Immunisation"
+],
+[
+"surv",
+"Disease surveillance"
+],
+[
+"tele",
+"Telehealth"
+],
+[
+"ehr",
+"Electronic health records"
+],
+[
+"sc",
+"Supply chains"
+],
+[
+"cds",
+"Decision-support tools"
+],
+[
+"oth",
+"Other"
+]
+],
+"sodh_q5_d1_type": [
+[
+"gov",
+"Policy or governance"
+],
+[
+"data",
+"Health-data use"
+],
+[
+"dpi",
+"Digital public infrastructure"
+],
+[
+"ai",
+"Artificial intelligence and analytics"
+],
+[
+"plat",
+"Shared platforms or reusable components"
+],
+[
+"tele",
+"Telehealth"
+],
+[
+"cit",
+"Citizen-facing services"
+],
+[
+"fin",
+"Financing"
+],
+[
+"part",
+"Partnerships"
+],
+[
+"oth",
+"Other"
+]
+],
+"sodh_q5_d2_type": [
+[
+"gov",
+"Policy or governance"
+],
+[
+"data",
+"Health-data use"
+],
+[
+"dpi",
+"Digital public infrastructure"
+],
+[
+"ai",
+"Artificial intelligence and analytics"
+],
+[
+"plat",
+"Shared platforms or reusable components"
+],
+[
+"tele",
+"Telehealth"
+],
+[
+"cit",
+"Citizen-facing services"
+],
+[
+"fin",
+"Financing"
+],
+[
+"part",
+"Partnerships"
+],
+[
+"oth",
+"Other"
+]
+],
+"sodh_q2_f1_type": [
+[
+"policy",
+"Policy"
+],
+[
+"inst",
+"Institutions"
+],
+[
+"fin",
+"Financing"
+],
+[
+"wf",
+"Workforce"
+],
+[
+"infra",
+"Infrastructure"
+],
+[
+"impl",
+"Implementation"
+],
+[
+"oth",
+"Other"
+]
+],
+"sodh_q2_f2_type": [
+[
+"policy",
+"Policy"
+],
+[
+"inst",
+"Institutions"
+],
+[
+"fin",
+"Financing"
+],
+[
+"wf",
+"Workforce"
+],
+[
+"infra",
+"Infrastructure"
+],
+[
+"impl",
+"Implementation"
+],
+[
+"oth",
+"Other"
+]
+],
+"sodh_q13_s1_src": [
+[
+"afcdc",
+"Africa CDC"
+],
+[
+"au",
+"Other AU institutions"
+],
+[
+"peer",
+"Peer Member States"
+],
+[
+"dp",
+"Development partners"
+],
+[
+"ind",
+"Industry"
+],
+[
+"res",
+"Research organisations"
+],
+[
+"oth",
+"Other"
+]
+],
+"sodh_q13_s2_src": [
+[
+"afcdc",
+"Africa CDC"
+],
+[
+"au",
+"Other AU institutions"
+],
+[
+"peer",
+"Peer Member States"
+],
+[
+"dp",
+"Development partners"
+],
+[
+"ind",
+"Industry"
+],
+[
+"res",
+"Research organisations"
+],
+[
+"oth",
+"Other"
+]
+],
+"sodh_q13_s3_src": [
+[
+"afcdc",
+"Africa CDC"
+],
+[
+"au",
+"Other AU institutions"
+],
+[
+"peer",
+"Peer Member States"
+],
+[
+"dp",
+"Development partners"
+],
+[
+"ind",
+"Industry"
+],
+[
+"res",
+"Research organisations"
+],
+[
+"oth",
+"Other"
+]
+]
+},
+"evidence_fields": [
+"sodh_q1_d1_evcls",
+"sodh_q1_d2_evcls",
+"sodh_q1_d3_evcls",
+"sodh_q7_evcls",
+"sodh_q14_e1_cls",
+"sodh_q14_e2_cls",
+"sodh_q14_e3_cls",
+"sodh_q14_e4_cls",
+"sodh_q14_e5_cls"
+],
+"consent": {
+"1": "Named in continental reports",
+"2": "Aggregated, not named",
+"3": "Africa CDC and Member State only"
+}
+}
